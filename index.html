@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <script src="main.js"></script> 
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- CSS -->
+<link rel="stylesheet" href="main.css">
+
+  <title>Clearbit</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img class="logo-header" src="assets/clearbit-logo-header.png" alt="clearbit-logo-header"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="right collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="ml-auto navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Product
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Integrations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Customers <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item btn btn-outline-info">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <section class="page" id="landing">
+    <div class="landing-row">
+      <div class="landing-div">
+        <h2>Data to power marketing Campaigns</h2>
+        <p>Clearbit is behind some of the worlds most advanced marketing teams</p>
+        <button type="button" class="btn btn-light sign-btn btn-lg">SIGN UP</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="branding">
+    <div class="client-row">
+      <div class="client-column">
+        <img class="client" src="assets/client-airbnb.png" alt="client-airbnb">
+      </div>
+      <div class="client-column">
+        <img class="client" src="assets/client-asana.png" alt="client-asana">
+      </div>
+      <div class="client-column">
+        <img class="client" src="assets/client-stripe.png" alt="client-stripe">
+      </div>
+      <div class="client-column">
+        <img class="client" src="assets/client-slack.png" alt="client-slack">
+      </div>
+      <div class="client-column">
+        <img class="client" src="assets/client-segment.png" alt="client-segment">
+      </div>
+    </div>
+  </section>
+
+  <section class="page" id="leads">
+    <div class="leads-content">
+    <p class="qualify-title"><strong>Qualify leads and attribute traffic</strong></p>
+    <p class="qualify">Turn your database of leads into actionable information by enriching with Clearbit data. Segment leads base on </br> more than 100 person & company properties we return, such gender, location, and company information.</p>
+  </div>
+    <div class="row">
+      <div class="column">
+        <img src="assets/database.png" alt="database">
+      </div>
+      <div class="column">
+        <img src="assets/cube.png" alt="cube">
+      </div>
+      <div class="column">
+        <img src="assets/human.png" alt="human">
+      </div>
+    </div>
+  </section>
+
+  <section class="page grad" id="enrichment">
+    <div class="row">
+      <div class="column">
+        <p><strong>Enrichment</strong>
+        </br>
+        </br><small>
+        Our Enrichment product takes an email address or domain and returns rich person and company information. </br> Run all of your signups though us, we'll enrich the emails and send the data to your CRM or Marketing Automation Platform, say Marketo.
+        </br>
+        </br>
+        Once all your leads are enriched, you can segment and route leads,</br> perform targeted campaigns, and qualify customers.</small>
+        </p>
+      </div>
+      <div class="column">
+        <img class="enrichment-pictures" src="assets/enrichment.png" alt="enrichment">
+      </div>
+  </section> 
+
+  <section class="page grad" id="reveal">
+  <div class="row">
+    <div class="column">
+      <img class="enrichment-pictures" src="assets/reveal.png" alt="enrichment">
+    </div>
+    <div class="column">
+      <p><strong>Reveal</strong>
+      </br>
+      </br><small>
+      Our Reveal Product takes an IP address and returns company information. Reveal deanonymizes the visitors on your website and shows you which companies are visiting, as well as informations about the category and size.
+      </br>
+      </br>
+      Reveal will then pipes this information into Google Analyticsso you start extracting real business value.</small>
+      </p>
+    </div>
+  </section>
+
+  <section id="conversions">
+    <img class="conversions-picture" src="assets/conversions.png"> 
+  </section>
+
+  <section id="cindy">
+    <div class="row testimony-row">
+      <div class='testimony-container column'>
+      <p class="testimony"><medium>"Clearbit saves me a ton of time in lead research, and </br> having full lead profiles automatically available </br> is amazing. I recommend Clearbit to our users daily."</br></br>
+        - Cindy Jones, Slack Marketing Team </medium></p>
+      </div>
+    </div> 
+  </section>
+  
+  <section id="join">
+    <div class="join">
+<h2>Join the Thousands of companies using Clearbit</h2>
+<p>signing up is fast, free, and easy</p> 
+<div class="get-started">
+  <p>you@email.com</p>
+  <button type="button" class="btn started-btn btn-lg">Get started</button>
+</div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <div class="row footer-row">
+
+      </div>
+      <hr>
+      <div class="footer-bar">
+        <span class="left-footer">
+          <img class="footer-logo" src="assets/clearbit-logo-footer.png" alt="clearbit-logo-footer">
+          <p class="rights">All rights reserved 2016</p>
+        </span>
+        <span class="right-footer">
+          <button type="button" class="btn btn-outline-info footer-btn">SIGN IN</button>
+          <button type="button" class="btn btn-outline-info footer-btn">SIGN UP</button>
+        </span>
+
+      </div>
+
+    </div>
+  </section>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
